@@ -32,6 +32,7 @@ show:
 
 clean:
 	rm -f $(OBJ)
+	rm -f $(OBJ_B)
 
 fclean: clean
 	rm -f $(NAME) $(NAME_B)
